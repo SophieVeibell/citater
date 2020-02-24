@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap');
+
+// Colors
+$PinkGradient: linear-gradient(to left, #ffecd2 0%, #fcb69f 100%);
+$DarkPinkGradient: linear-gradient(to left, #f093fb 0%, #f5576c 100%);
+$ButtonColor: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+
+$Darkblack:#313131;
+$PeachPink: #F6BFC5;
+$BlueLight:#525F8F;
+
+// fonts
+
+$ButtonText: 'Montserrat', sans-serif;
+
+// border 
+
+$Border: 2px solid $BlueLight;
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $PeachPink;
+    font-family: $ButtonText;
+    padding: 50px;
+    
+    .overskrift {
+        width: 500px;
+
+            h1{
+            font-size: 60px;
+            color:$BlueLight;
+            padding: 5px;
+            }
+    }
+    
+    button {
+        background-color: white;
+        border: $Border;
+
+        height: 55px;
+        width: 100px;
+        color: $BlueLight;
+        font-family: $ButtonText;
+        font-weight: bold;
+        margin-top: 25px;
+    }
+
+    
+
+    input {
+        height: 55px;
+        margin: 10px;
+        padding: 5px;
+        color: black;
+        font-family: $ButtonText;
+        border: $Border;
+        
+    }
+
+    .citat {
+        margin-bottom: 20px;
+        padding: 50px;
+        width: 800px;
+        background-color: $BlueLight;
+        color: white;
+        font-size: 20px;
+    }
+
+    p {
+        font-weight: bold;
+        font-size: 30px;
+        color: white;
+    }
+}
